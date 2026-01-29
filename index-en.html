@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mahmoud Elmekawy - BIM Engineer | Infrastructure & Construction Specialist. Professional engineering consulting services for BIM, infrastructure, and construction projects.">
+    <meta name="keywords" content="BIM Engineer, Infrastructure, Construction, Engineering Consultant, Mahmoud Elmekawy">
+    <meta name="author" content="Mahmoud Elmekawy">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mahmoud Elmekawy - BIM Engineer | Infrastructure & Construction Specialist">
+    <meta property="og:description" content="Professional engineering consulting services for BIM, infrastructure, and construction projects.">
+    <meta property="og:type" content="website">
+    
+    <title>Mahmoud Elmekawy - BIM Engineer | Infrastructure & Construction Specialist</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h2>Mahmoud Elmekawy</h2>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-cta">
+                    <a href="#" class="btn btn-whatsapp-header" id="headerWhatsAppBtn">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" id="heroTitle"></h1>
+                    <p class="hero-subtitle" id="heroSubtitle"></p>
+                    <p class="hero-description" id="heroDescription"></p>
+                    <div class="hero-cta">
+                        <a href="#" class="btn btn-primary" id="heroWhatsAppBtn">
+                            <i class="fab fa-whatsapp"></i> <span id="heroWhatsAppText"></span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary" id="heroConsultBtn"></a>
+                        <a href="#services" class="btn btn-outline" id="heroServicesBtn"></a>
+                    </div>
+                    <div class="hero-social" id="heroSocial"></div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-image.jpg" alt="Mahmoud Elmekawy - BIM Engineer" id="heroImage">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">My career journey in engineering and BIM consulting</p>
+            </div>
+            <div class="timeline" id="timelineContainer"></div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients" id="clients">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted By</h2>
+                <p class="section-subtitle">Organizations I've worked with</p>
+            </div>
+            <div class="clients-grid" id="clientsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">Comprehensive BIM and engineering consulting solutions</p>
+            </div>
+            <div class="services-grid" id="servicesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Training & Courses</h2>
+                <p class="section-subtitle">Professional development programs for engineers</p>
+            </div>
+            <div class="courses-grid" id="coursesGrid"></div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">Selected projects and case studies</p>
+            </div>
+            <div class="portfolio-grid" id="portfolioGrid"></div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What clients say about working with me</p>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider"></div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" id="ctaTitle"></h2>
+                <p class="cta-description" id="ctaDescription"></p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-lg" id="ctaWhatsAppBtn">
+                        <i class="fab fa-whatsapp"></i> <span id="ctaWhatsAppText"></span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-lg" id="ctaConsultBtn"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss your project requirements</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-links" id="contactLinks"></div>
+                </div>
+                <div class="contact-form">
+                    <form id="consultationForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Mahmoud Elmekawy</h3>
+                    <p>BIM Engineer | Infrastructure & Construction Specialist</p>
+                </div>
+                <div class="footer-social" id="footerSocial"></div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Mahmoud Elmekawy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#" class="floating-whatsapp" id="floatingWhatsApp" aria-label="Contact via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/data-loader.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

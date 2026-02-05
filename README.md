@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @Mahmoud-Elmaghawry
-- Structural Bim Engineer
+- BIM Coordinator
+- Structural & Infrastructural Bim Engineer
 - Autodesk Certified Instructor
-- Professional certified by the Saudi Council of Engineers
+- Professional Engineer certified by the Saudi Council of Engineers
 - Graphic Designer
 - Front End Web Developer
 - 👀 I’m interested in ( Coding - Graphic Design)
